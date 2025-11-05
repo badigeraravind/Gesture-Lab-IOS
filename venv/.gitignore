@@ -1,0 +1,19 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Python
+venv/
+*.pyc
+__pycache__/
+
+# macOS
+.DS_Store
+
+# Xcode / builds
+DerivedData/
+build/
+*.xcworkspace
+*.xcuserstate
+
+# logs / test artifacts
+appium.log
+*.log

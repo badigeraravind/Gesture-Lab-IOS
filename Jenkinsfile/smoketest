@@ -1,0 +1,84 @@
+pipeline {
+  agent { label 'macos' }   // use your mac agent label or `any` for local demo
+  environment {
+    BUNDLE_ID = "com.badigeraravinda.GestureLabIOS"
+    SCHEME = "GestureLabIOS"
+    DEST_DIR = "build"
+    SIM_UDID = "5F0B82D6-F318-4CE1-804B-6152B0DCAA6F"
+    APP_PATH = "${env.WORKSPACE}/${env.DEST_DIR}/${env.SCHEME}.app"
+  }
+  stages {
+    stage('Checkout') {
+      steps { checkout scm }
+    }
+    stage('Setup env') {
+      steps {
+        sh '''
+          echo "PATH=$PATH"
+          which applesimutils || true
+          which appium || true
+          node -v || true
+          python3 --version || true
+        '''
+      }
+    }
+    stage('Install Python deps') {
+      steps {
+        sh '''
+          python3 -m venv venv || true
+          . venv/bin/activate
+          pip install -r requirements.txt
+        '''
+      }
+    }
+    stage('Build .app (simulator)') {
+      steps {
+        sh '''
+          mkdir -p ${DEST_DIR}
+          # Build for simulator; adjust destinationDevice or derivedData path as needed
+          xcodebuild -scheme "${SCHEME}" -configuration Debug -sdk iphonesimulator \
+            -derivedDataPath DerivedData \
+            -destination "id=${SIM_UDID}" clean build CONFIGURATION_BUILD_DIR="${DEST_DIR}"
+        '''
+      }
+    }
+    stage('Pregrant permissions & clean install') {
+      steps {
+        sh '''
+          ./scripts/pregrant_permissions.sh ${SIM_UDID} ${BUNDLE_ID}
+        '''
+      }
+    }
+    stage('Start Appium') {
+      steps {
+        sh '''
+          ./scripts/start_appium.sh appium.log
+        '''
+      }
+    }
+    stage('Run tests') {
+      steps {
+        sh '''
+          . venv/bin/activate
+          export APP_PATH="${APP_PATH}"
+          export SIM_UDID="${SIM_UDID}"
+          pytest -q -s appium_ios/gesture_single_tap.py || true
+        '''
+      }
+      post {
+        always {
+          archiveArtifacts artifacts: 'appium.log, build/**/*.app', allowEmptyArchive: true
+        }
+      }
+    }
+  }
+
+  post {
+    always {
+      sh '''
+        pids=$(pgrep -f appium || true)
+        if [ -n "$pids" ]; then echo "killing $pids"; kill $pids || true; fi
+      '''
+    }
+  }
+}
