@@ -33,24 +33,20 @@ pipeline {
     stage('Start Appium, grant permissions & run tests') {
       steps {
         sh '''
-          if !command - v applesimutils > /dev/null 2 > & 1; then
-            echo "Installing applesimutils..."
-            # only do this if Homebrew is available on the node
-            if command -v brew >/dev/null 2>&1; then
-              brew tap wix / brew
-              brew install applesimutils || true
-            else
-              echo "Homebrew not found; applesimutils installation skipped." 
+          set -e
+            # install applesimutils only if it's missing and Homebrew exists on the node
+            if ! command -v applesimutils >/dev/null 2>&1; then
+              echo "Installing applesimutils..."
+              if command -v brew >/dev/null 2>&1; then
+                brew tap wix/brew
+                brew install applesimutils || true
+              else
+                echo "Homebrew not found; applesimutils installation skipped."
+              fi
             fi
-          fi
         '''
         sh '''
           set -e
-          echo "Starting Appium (background)..."
-          nohup appium --log-level info > appium.log 2> & 1
-
-          # give Appium a moment
-          sleep 6
 
           echo "Ensure applesimutils exists and is usable:"
           if ! command -v applesimutils >/dev/null 2>&1; then
@@ -58,15 +54,27 @@ pipeline {
             exit 2
           fi
 
+          echo "Starting Appium (background)..."
+          nohup appium --log-level info > appium.log 2>&1 &
+          sleep 6
+
           # give simulator a moment
           sleep 2
 
-          # pre-grant permissions using applesimutils (use the built app bundle id)
           SIM_ID=$(xcrun simctl list devices booted | grep -v unavailable | head -n1 | awk -F'[()]' '{print $2}')
+          if [ -z "$SIM_ID" ]; then
+            echo "No booted simulator found — please boot one or run 'xcrun simctl boot <device>' first."
+            exit 3
+          fi
           echo "Using simulator id: $SIM_ID"
+
           BUNDLE="com.badigeraravinda.GestureLabIOS"
           echo "Pre-granting permissions for $BUNDLE on $SIM_ID"
           applesimutils --byId "$SIM_ID" --bundle "$BUNDLE" --setPermissions '{"camera":"YES","location":"YES","photos":"YES","notifications":"YES"}' || true
+
+          . ./venv/bin/activate
+          pip install -r requirements.txt || true
+          pytest -s appium_ios/gesture_single_tap.py || exit $?
         '''
       }
     }
