@@ -114,14 +114,8 @@ pipeline {
           mkdir -p reports
 
           echo "Running pytest (writing junit XML + HTML report)..."
-          pytest -v appium_ios/ \
-          --junitxml=reports/results.xml \
-          --html=reports/report.html \
-          --self-contained-html \
-          || true
+          pytest -v appium_ios/ --junitxml=reports/results.xml --html=reports/report.html --self-contained-html || true
 
-        junit 'reports/results.xml'
-        
           echo "Test execution complete. Collecting logs..."
           cp appium.log reports/appium.log || true
 
@@ -133,8 +127,10 @@ pipeline {
   }
   post {
     always {
+      echo "Publishing test results..."
+      junit 'reports/results.xml'
       echo "Archiving test results and logs..."
-      archiveArtifacts artifacts: 'reports/**/*', fingerprint: true
+      archiveArtifacts artifacts: 'reports/**', fingerprint: true
       echo "Pipeline finished on ${env.NODE_NAME}"
     }
   }

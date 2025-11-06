@@ -3,3 +3,4 @@ selenium
 pytest
 pytest-xdist
 allure-pytest
+pytest-html>=3.2.0
