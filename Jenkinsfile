@@ -94,17 +94,12 @@ pipeline {
         '''
       }
     }
-
-    post {
-      always {
-        echo "Archiving test results and logs..."
-        archiveArtifacts artifacts: 'reports/**/*', fingerprint: true
-      }
-    }
   }
-}
-post {
-  always {
-    echo "Pipeline finished on ${env.NODE_NAME}"
+  post {
+    always {
+      echo "Archiving test results and logs..."
+      archiveArtifacts artifacts: 'reports/**/*', fingerprint: true
+      echo "Pipeline finished on ${env.NODE_NAME}"
+    }
   }
 }
