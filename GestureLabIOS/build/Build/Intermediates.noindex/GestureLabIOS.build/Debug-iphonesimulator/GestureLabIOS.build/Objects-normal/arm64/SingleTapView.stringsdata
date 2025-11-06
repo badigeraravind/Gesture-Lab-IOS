@@ -1,0 +1,32 @@
+{
+  "source": "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/SingleTapView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Single Tap",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Switch OFF",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Switch ON",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 15
+        }
+      }
+    ]
+  },
+  "version": 1
+}

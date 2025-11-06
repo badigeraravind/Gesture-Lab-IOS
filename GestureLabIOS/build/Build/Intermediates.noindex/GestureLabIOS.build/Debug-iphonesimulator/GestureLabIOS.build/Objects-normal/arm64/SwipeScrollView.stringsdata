@@ -1,0 +1,48 @@
+{
+  "source": "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/SwipeScrollView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Swipe / Scroll",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Swipe left/right the cards below",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scroll the list below",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Page %lld",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Item %lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 28
+        }
+      }
+    ]
+  },
+  "version": 1
+}

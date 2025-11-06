@@ -1,0 +1,158 @@
+{
+  "" : {
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GestureLabIOS-master.dia",
+    "emit-module-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GestureLabIOS-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GestureLabIOS-master-emit-module.dia",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GestureLabIOS-master.swiftdeps"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/ContentView.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/GestureLabApp.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GestureLabApp.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GestureLabApp.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GestureLabApp.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GestureLabApp.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GestureLabApp.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GestureLabApp.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GestureLabApp.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GestureLabApp~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/DoubleTapView.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DoubleTapView.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DoubleTapView.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DoubleTapView.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DoubleTapView.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DoubleTapView.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DoubleTapView.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DoubleTapView.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DoubleTapView~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/DragAndDropView.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DragAndDropView.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DragAndDropView.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DragAndDropView.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DragAndDropView.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DragAndDropView.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DragAndDropView.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DragAndDropView.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/DragAndDropView~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/GlobalTouchStore.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GlobalTouchStore.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GlobalTouchStore.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GlobalTouchStore.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GlobalTouchStore.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GlobalTouchStore.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GlobalTouchStore.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GlobalTouchStore.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GlobalTouchStore~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/HomeView.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/HomeView.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/HomeView.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/HomeView.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/HomeView.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/HomeView.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/HomeView.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/HomeView~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/LoginView.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LoginView.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LoginView.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LoginView.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LoginView.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LoginView.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LoginView.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LoginView.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LoginView~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/LongPressView.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LongPressView.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LongPressView.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LongPressView.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LongPressView.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LongPressView.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LongPressView.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LongPressView.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/LongPressView~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/MultiTouchView.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/MultiTouchView.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/MultiTouchView.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/MultiTouchView.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/MultiTouchView.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/MultiTouchView.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/MultiTouchView.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/MultiTouchView.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/MultiTouchView~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/NoInternetView.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/NoInternetView.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/NoInternetView.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/NoInternetView.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/NoInternetView.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/NoInternetView.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/NoInternetView.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/NoInternetView.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/NoInternetView~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/SingleTapView.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SingleTapView.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SingleTapView.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SingleTapView.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SingleTapView.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SingleTapView.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SingleTapView.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SingleTapView.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SingleTapView~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/SwipeScrollView.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SwipeScrollView.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SwipeScrollView.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SwipeScrollView.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SwipeScrollView.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SwipeScrollView.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SwipeScrollView.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SwipeScrollView.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/SwipeScrollView~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/WebViewContainer.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewContainer.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewContainer.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewContainer.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewContainer.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewContainer.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewContainer.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewContainer.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewContainer~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/WebViewLoadingView.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewLoadingView.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewLoadingView.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewLoadingView.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewLoadingView.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewLoadingView.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewLoadingView.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewLoadingView.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/WebViewLoadingView~partial.swiftmodule"
+  },
+  "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Intermediates.noindex/GestureLabIOS.build/Debug-iphonesimulator/GestureLabIOS.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

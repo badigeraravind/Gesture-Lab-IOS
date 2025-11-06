@@ -1,0 +1,24 @@
+{
+  "source": "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/DragAndDropView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Drag and Drop",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 71
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drag the wooden nail",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 51
+        }
+      }
+    ]
+  },
+  "version": 1
+}

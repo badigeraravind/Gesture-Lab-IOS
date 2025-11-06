@@ -1,0 +1,32 @@
+{
+  "source": "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/DoubleTapView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Double Tap",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "Double tap the teddy to start/stop spinning",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 8
+        }
+      },
+      {
+        "comment": "",
+        "key": "🐻",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 18
+        }
+      }
+    ]
+  },
+  "version": 1
+}

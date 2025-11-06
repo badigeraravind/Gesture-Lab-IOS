@@ -1,0 +1,16 @@
+{
+  "source": "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/MultiTouchView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Multi-Touch",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 95
+        }
+      }
+    ]
+  },
+  "version": 1
+}

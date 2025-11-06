@@ -1,0 +1,48 @@
+{
+  "source": "/Users/aravindbadiger/GestureLab/GestureLabIOS/GestureLabIOS/Views/NoInternetView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "No Internet",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Internet Connected",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "connecting...waiting for internet",
+        "location": {
+          "startingColumn": 63,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "STOP",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Simulate network loss",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 39
+        }
+      }
+    ]
+  },
+  "version": 1
+}
