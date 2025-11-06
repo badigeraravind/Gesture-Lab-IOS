@@ -14,7 +14,7 @@ pipeline {
         echo "Building app on node: ${env.NODE_NAME}"
         sh '''
           echo "=== DEBUG: workspace location ==="
-          echo "WORKSPACE: ${env.WORKSPACE}"
+          echo "WORKSPACE: $WORKSPACE"
           pwd
           echo "---- top-level listing ----"
           ls -la
