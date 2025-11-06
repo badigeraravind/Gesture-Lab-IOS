@@ -15,8 +15,8 @@ def driver():
     o.udid = os.environ.get('SIM_UDID')
     #o.udid = "5F0B82D6-F318-4CE1-804B-6152B0DCAA6F"
     o.automation_name = "XCUITest"
-    app_path = os.environ.get('APP_PATH', os.path.join(os.getcwd(), 'build','GestureLabIOS.app'))
-    o.app = "/Users/aravindbadiger/GestureLab/GestureLabIOS/build/Build/Products/Debug-iphonesimulator/GestureLabIOS.app"
+    app_path = os.environ.get('APP_PATH', os.path.join(os.getcwd(), 'GestureLabIOS', 'build', 'Build', 'Products', 'Debug-iphonesimulator', 'GestureLabIOS.app'),)
+    #o.app = "/Users/aravindbadiger/game-qa-python-lab/GestureLabIOS/build/Build/Products/Debug-iphonesimulator"
     print("Using app path:", app_path)
     if not os.path.exists(app_path):
         raise RuntimeError(f"App not found at {app_path} — build it or set APP_PATH env var correctly.")
