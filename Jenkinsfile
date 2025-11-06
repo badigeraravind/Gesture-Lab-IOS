@@ -64,7 +64,7 @@ pipeline {
           SIM_ID=$(xcrun simctl list devices booted | grep -v unavailable | head -n1 | awk -F'[()]' '{print $2}')
           if [ -z "$SIM_ID" ]; then
             echo "No booted simulator found — attempting to boot a device named 'iPhone 16'..."
-            SIM_ID=$(xcrun simctl list devices | grep "iPhone 16 (" | head -n1 | sed -E 's/.*\(([^)]+)\).*/\1/')
+            SIM_ID=$(xcrun simctl list devices | grep "iPhone 16 (" | head -n1 | awk -F'[()]' '{print $2}')
 
             if [ -z "$SIM_ID" ]; then
               echo "No 'iPhone 16' simulator found. List available simulators with: xcrun simctl list devices"
@@ -85,7 +85,7 @@ pipeline {
               exit 3
             fi
           fi
-          
+
           echo "Using simulator id: $SIM_ID"
 
           BUNDLE="com.badigeraravinda.GestureLabIOS"
