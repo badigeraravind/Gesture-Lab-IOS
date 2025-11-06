@@ -22,7 +22,7 @@ pipeline {
 
           echo "Starting clean build..."
           xcodebuild -project GestureLabIOS.xcodeproj -scheme GestureLabIOS \
-            -destination "platform=iOS Simulator,name=iPhone 16,OS=18.1" \  
+            -destination "platform=iOS Simulator,name=iPhone 16,OS=18.1" \
             -derivedDataPath ./build clean build
 
           echo "=== Build output verification ==="
