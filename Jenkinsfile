@@ -14,19 +14,20 @@ pipeline {
         echo "Building app on node: ${env.NODE_NAME}"
         sh '''
           set -e
-          # go into the top-level folder that contains the Xcode project file
+          echo "Cleaning previous DerivedData..."
+          rm -rf GestureLabIOS/build || true
+
           cd GestureLabIOS
+          echo "Confirming .xcodeproj presence:"
+          ls -la GestureLabIOS.xcodeproj || exit 1
 
-          # confirm the project file exists for debugging:
-          ls -la GestureLabIOS.xcodeproj || true
-
-          # build by explicitly passing the project
+          echo "Starting clean build..."
           xcodebuild -project GestureLabIOS.xcodeproj -scheme GestureLabIOS \
           -destination "platform=iOS Simulator,name=iPhone 16,OS=18.1" \
           -derivedDataPath ./build clean build
 
-          # show built app (for quick verification)
-          ls -la build/Build/Products/Debug-iphonesimulator | grep GestureLabIOS || true
+          echo "=== Build output verification ==="
+          ls -la build/Build/Products/Debug-iphonesimulator || true
         '''
       }
     }
