@@ -26,10 +26,10 @@ pipeline {
         '''
         sh'''
           set -e
-          cd GestureLabIOS
+          cd GestureLabIOS/GestureLabIOS
           xcodebuild -scheme GestureLabIOS \
           -destination "platform=iOS Simulator,name=iPhone 16,OS=18.1" \
-          -derivedDataPath ./build clean build
+          -derivedDataPath ../build clean build
           ls -la build/Build/Products/Debug-iphonesimulator | grep GestureLabIOS || true
         '''
       }
