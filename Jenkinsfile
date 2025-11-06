@@ -12,16 +12,19 @@ pipeline {
     stage('Build the IOS app'){
       steps{
         echo "Building app on node: ${env.NODE_NAME}"
-        sh """
-          echo "=== WORKSPACE ==="
-          pwd
-          echo "---- top level ----"
-          ls -la
-          echo "---- find GestureLabIOS ----"
-          find . -maxdepth 3 -type d -name "GestureLabIOS" -print || true
-          echo "---- end debug ----"
-        """
         sh '''
+          echo "=== DEBUG: workspace location ==="
+          echo "WORKSPACE: ${env.WORKSPACE}"
+          pwd
+          echo "---- top-level listing ----"
+          ls -la
+          echo "---- find GestureLabIOS dir ----"
+          find . -maxdepth 3 -type d -name "GestureLabIOS" -print || true
+          echo "---- listing GestureLabIOS/build/Build/Products/Debug-iphonesimulator if present ----"
+          ls -la GestureLabIOS/build/Build/Products/Debug-iphonesimulator || true
+          echo "---- end debug ----"
+        '''
+        sh'''
           set -e
           cd GestureLabIOS
           xcodebuild -scheme GestureLabIOS \
