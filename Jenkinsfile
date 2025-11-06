@@ -12,6 +12,15 @@ pipeline {
     stage('Build the IOS app'){
       steps{
         echo "Building app on node: ${env.NODE_NAME}"
+        sh """
+          echo "=== WORKSPACE ==="
+          pwd
+          echo "---- top level ----"
+          ls -la
+          echo "---- find GestureLabIOS ----"
+          find . -maxdepth 3 -type d -name "GestureLabIOS" -print || true
+          echo "---- end debug ----"
+        """
         sh '''
           set -e
           cd GestureLabIOS
