@@ -94,7 +94,7 @@ pipeline {
 
           . ./venv/bin/activate
           pip install -r requirements.txt || true
-          pytest -s appium_ios/gesture_single_tap.py || exit $?
+          pytest -s appium_ios/gesture_1_single_tap.py || exit $?
         '''
       }
     }
