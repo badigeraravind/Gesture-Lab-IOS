@@ -110,10 +110,18 @@ pipeline {
           pip install --upgrade pip
           pip install -r requirements.txt || true
 
-          echo "Running pytest..."
+          echo "Preparing reports folder..."
           mkdir -p reports
-          pytest -s appium_ios --maxfail=1 --disable-warnings --html=reports/test_report.html --self-contained-html || true
 
+          echo "Running pytest (writing junit XML + HTML report)..."
+          pytest -v appium_ios/ \
+          --junitxml=reports/results.xml \
+          --html=reports/report.html \
+          --self-contained-html \
+          || true
+
+        junit 'reports/results.xml'
+        
           echo "Test execution complete. Collecting logs..."
           cp appium.log reports/appium.log || true
 
