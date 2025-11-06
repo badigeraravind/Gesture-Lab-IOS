@@ -72,13 +72,38 @@ pipeline {
       '''
   }
 }
-
-    stage('Smoke placeholder') {
+    stage('Run iOS Appium Tests') {
       steps {
-        echo "Run smoke tests here (placeholder)."
-        // you will replace this with the real build/test steps later
-      }
+        echo "Running automated iOS Appium tests..."
+          sh '''
+            set -e
+            echo "Activating Python virtual environment..."
+            . ./venv/bin/activate
+
+            echo "Installing dependencies..."
+            pip install --upgrade pip
+            pip install -r requirements.txt
+
+            echo "Running pytest..."
+            mkdir -p reports
+            pytest -s appium_ios/ --maxfail=1 --disable-warnings --html=reports/test_report.html --self-contained-html || true
+
+            echo "Test execution complete. Collecting logs..."
+            cp appium.log reports/appium.log || true
+
+            echo "Listing reports folder contents:"
+            ls -la reports
+          '''
+        }
     }
+
+  post {
+    always {
+      echo "Archiving test results and logs..."
+      archiveArtifacts artifacts: 'reports/**/*', fingerprint: true
+    }
+  }
+}
   }
   post {
     always {
