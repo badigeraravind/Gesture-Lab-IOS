@@ -108,4 +108,3 @@ post {
     echo "Pipeline finished on ${env.NODE_NAME}"
   }
 }
-}
