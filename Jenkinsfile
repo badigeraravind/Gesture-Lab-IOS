@@ -9,6 +9,19 @@ pipeline {
       }
     }
 
+    stage('Build the IOS app'){
+      steps{
+        echo "Building app on node: ${env.NODE_NAME}"
+        sh '''
+          set -e
+          xcodebuild -scheme GestureLabIOS \
+          -destination "platform=iOS Simulator,name=iPhone 16,OS=18.1" \
+          -derivedDataPath ./build clean build
+          ls -la build/Build/Products/Debug-iphonesimulator | grep GestureLabIOS || true
+        '''
+      }
+    }
+
     stage('Smoke placeholder') {
       steps {
         echo "Run smoke tests here (placeholder)."
