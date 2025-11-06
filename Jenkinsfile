@@ -21,9 +21,9 @@ pipeline {
           ls - la GestureLabIOS.xcodeproj || exit 1
 
           echo "Starting clean build..."
-          xcodebuild - project GestureLabIOS.xcodeproj - scheme GestureLabIOS\ -
-            destination "platform=iOS Simulator,name=iPhone 16,OS=18.1"\ -
-            derivedDataPath. / build clean build
+          xcodebuild - project GestureLabIOS.xcodeproj - scheme GestureLabIOS \ 
+            -destination "platform=iOS Simulator,name=iPhone 16,OS=18.1" \ 
+            -derivedDataPath ./build clean build
 
           echo "=== Build output verification ==="
           ls - la build / Build / Products / Debug - iphonesimulator || true 
