@@ -114,7 +114,7 @@ pipeline {
           mkdir -p reports
 
           echo "Running pytest (writing HTML report)..."
-          pytest -v appium_ios/ --html=reports/allreport.html --self-contained-html || true
+          pytest -vv appium_ios/ --html=reports/allreport.html --self-contained-html || true
 
           echo "Test execution complete. Collecting logs..."
           cp appium.log reports/appium.log || true
