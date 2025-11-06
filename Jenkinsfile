@@ -13,23 +13,19 @@ pipeline {
       steps{
         echo "Building app on node: ${env.NODE_NAME}"
         sh '''
-          echo "=== DEBUG: workspace location ==="
-          echo "WORKSPACE: $WORKSPACE"
-          pwd
-          echo "---- top-level listing ----"
-          ls -la
-          echo "---- find GestureLabIOS dir ----"
-          find . -maxdepth 3 -type d -name "GestureLabIOS" -print || true
-          echo "---- listing GestureLabIOS/build/Build/Products/Debug-iphonesimulator if present ----"
-          ls -la GestureLabIOS/build/Build/Products/Debug-iphonesimulator || true
-          echo "---- end debug ----"
-        '''
-        sh'''
           set -e
-          cd GestureLabIOS/GestureLabIOS
-          xcodebuild -scheme GestureLabIOS \
+          # go into the top-level folder that contains the Xcode project file
+          cd GestureLabIOS
+
+          # confirm the project file exists for debugging:
+          ls -la GestureLabIOS.xcodeproj || true
+
+          # build by explicitly passing the project
+          xcodebuild -project GestureLabIOS.xcodeproj -scheme GestureLabIOS \
           -destination "platform=iOS Simulator,name=iPhone 16,OS=18.1" \
-          -derivedDataPath ../build clean build
+          -derivedDataPath ./build clean build
+
+          # show built app (for quick verification)
           ls -la build/Build/Products/Debug-iphonesimulator | grep GestureLabIOS || true
         '''
       }
