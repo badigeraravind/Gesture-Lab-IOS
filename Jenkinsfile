@@ -23,6 +23,40 @@ pipeline {
       }
     }
 
+    stage('Start Appium, grant permissions & run tests') {
+      steps {
+        sh '''
+          set -e
+          echo "Starting Appium (background)..."
+          # start appium in background and log to appium.log
+          nohup appium --log-level info > appium.log 2>&1 &
+          sleep 6
+
+          echo "Ensure applesimutils exists and is usable:"
+          if ! command -v applesimutils >/dev/null 2>&1; then
+            echo "applesimutils not found in PATH — please install on the node (brew tap wix/brew && brew install applesimutils)"
+            exit 2
+          fi
+
+        # give simulator a moment
+        sleep 2
+
+        # pre-grant permissions using applesimutils (use the built app bundle id)
+        SIM_ID=$(xcrun simctl list devices booted | grep -v unavailable | head -n1 | awk -F'[()]' '{print $2}')
+        echo "Using simulator id: $SIM_ID"
+        BUNDLE="com.badigeraravinda.GestureLabIOS"
+        echo "Pre-granting permissions for $BUNDLE on $SIM_ID"
+        applesimutils --byId "$SIM_ID" --bundle "$BUNDLE" --setPermissions '{"camera":"YES","location":"YES","photos":"YES","notifications":"YES"}' || true
+
+        # activate venv, install reqs and run pytest (adjust venv path if different)
+        echo "Activating venv and running tests..."
+        . ./venv/bin/activate
+        pip install -r requirements.txt || true
+        pytest -s appium_ios/gesture_single_tap.py || exit $?
+      '''
+  }
+}
+
     stage('Smoke placeholder') {
       steps {
         echo "Run smoke tests here (placeholder)."
