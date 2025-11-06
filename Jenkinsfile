@@ -34,6 +34,13 @@ pipeline {
 
     stage('Start Appium, grant permissions & run tests') {
       steps {
+        sh'''
+          if ! command -v applesimutils >/dev/null 2>&1; then
+            echo "Installing applesimutils..."
+            brew tap wix/brew
+            brew install applesimutils
+          fi
+        '''
         sh '''
           set -e
           echo "Starting Appium (background)..."
