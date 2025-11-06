@@ -47,7 +47,7 @@ pipeline {
         sh '''
           set -e
           echo "Starting Appium (background)..."
-          nohup appium --log-level info > appium.log 2>&1 &
+          nohup appium --log-level info > appium.log 2> & 1
 
           # give Appium a moment
           sleep 6
