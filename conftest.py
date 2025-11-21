@@ -40,9 +40,6 @@ def driver():
             }
         })
     )
-
-    
-    
     # o.xcodeOrgId      = "<Your Apple Team ID>"       # required for real device
     # o.xcodeSigningId  = "iPhone Developer"
 

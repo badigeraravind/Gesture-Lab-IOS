@@ -94,7 +94,7 @@ pipeline {
 
           . ./venv/bin/activate
           pip install -r requirements.txt || true
-          pytest -s appium_ios/gesture_1_login.py || exit $?
+          pytest -s test_scripts/test_open_news.py || exit $?
         '''
       }
     }
@@ -114,7 +114,7 @@ pipeline {
           mkdir -p reports
 
           echo "Running pytest (writing HTML report)..."
-          pytest -vv appium_ios/ --html=reports/allreport.html --self-contained-html || true
+          pytest -vv test_scripts/ --html=reports/allreport.html --self-contained-html || true
 
           echo "Test execution complete. Collecting logs..."
           cp appium.log reports/appium.log || true
